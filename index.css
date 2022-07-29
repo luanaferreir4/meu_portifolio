@@ -1,0 +1,112 @@
+body{
+    margin: auto 0;   
+    width: 100%; 
+    height: 100%;
+}
+
+/* NAV */
+.menu{
+    display: flex;
+    align-items: center;
+    background: #000000;
+    border: 1px double #166567;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+li{
+    padding: 10px;
+}
+
+.logo img{
+    width: 80px;
+}
+    
+a{
+    text-decoration: none;
+    color: #229aa0;
+}
+
+@media only screen and (max-width: 1000px){
+    .menu{
+        font-size: 0.9em;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .menu{
+        font-size: 0.8em;
+        padding: 0;
+    }
+}
+/* COVER */
+.cover img{
+    width: 100%;
+}
+/* ABOUT ME */
+.sobre-mim{
+    margin: 80px;
+}
+
+.sobre-mim p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    width: 190px;
+    box-shadow: 8px 8px 18px gainsboro;
+    border-bottom: 1px double black;
+    border-right: 1px double black;
+} 
+
+/* BUTTON */
+.btn{
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    background-color: #229aa0;
+    border: 1px double #166567;
+    border-radius: 10px;
+    width: 180px;
+    font-size: 18px;
+    height: 30px;
+    color: white;
+}
+
+input[type="button"]:hover{
+    background-color: #166567;
+}
+
+/* MEUS PROJETOS */
+
+.projects{
+    margin: 80px;
+}
+
+.github img{
+    width: 40px;
+}
+
+.linkedin img{
+    width: 40px;
+}
+
+.redes-sociais .github, .redes-sociais .linkedin{
+    display: inline-block;
+}
+
+.tecnologias div img{
+    width: 50px;
+}
+
+.tecnologias div.html, div.css, div.js, div.python, div.github_icon, div.terminal{
+    display: inline-block
+}
